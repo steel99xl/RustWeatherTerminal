@@ -931,10 +931,6 @@ fn display_alerts(alerts : &Vec<AlertData>){
                         a.simple_display();
                     }
 
-                    if detail == "B" || detail == "b"{
-                        break 'display;
-                    }
-
 
                 }
 
@@ -945,6 +941,9 @@ fn display_alerts(alerts : &Vec<AlertData>){
 
         }
 
+        if detail == "B" || detail == "b"{
+            break 'display;
+        }
 
         println!("Options :");
         println!("[NUMBER] : Detailed information for that entry");
