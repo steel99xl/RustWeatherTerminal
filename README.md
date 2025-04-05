@@ -9,11 +9,13 @@ This should compile for any platform with ``` cargo ```
 run ```rwt``` or ```rwt [zip code]```to launch with a zip from stdin
 
 
-# Version 0.5.0
+# Version 1.0.0
 ## Features
-	*Set location from ZIP code
-	*Display Forecast information in simple and detaild views
-	*Display Alert information from provided ZIP code
+	*Location From ZIP CODE
+	*Forecast Cache
+	*Alerts Cache
+    *Observations
+    *Change Forecast Units
 	
 
 
@@ -29,3 +31,5 @@ Its recomended that you move the rwt executable file and the data folder to your
 
 ## Important
 The data folder needs to either be in your working directory or located next to the rwt executable file 
+
+
